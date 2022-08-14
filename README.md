@@ -1,3 +1,10 @@
+### A COVID-19 modeling and forecast tool
+
+A tool to analyse the number of daily COVID-19 infections and deaths, and to build a model that forecasts infections and deaths in the coming weeks, written in Java.
+
+## COVID-19 Data files:
+The relevant files containing the number of daily infections and deaths can be downloaded from the following government webpages:  https://coronavirus.data.gov.uk/cases and https://coronavirus.data.gov.uk/deaths. You can download the card data in CSV format. The data is organised by different criteria. Discuss in your team which data you like to select and analyse.
+
 ### Prerequisites
 - Have at least Java Runtime Environment 8 installed
 - Have the files laid out as such:
