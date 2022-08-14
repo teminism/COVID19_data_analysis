@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Team9</OriginalElement>
+  <nodes>
+    <node x="764.9817251461989" y="0.0">Team9.CovidData</node>
+    <node x="0.0" y="66.0">Team9.LinearRegress</node>
+    <node x="374.0" y="66.0">Team9.Data</node>
+    <node x="717.4817251461989" y="566.0">Team9.MainFrame</node>
+    <node x="491.98172514619887" y="260.0">Team9.GenerateGraph</node>
+    <node x="996.4817251461989" y="727.0">Team9.Main</node>
+    <node x="0.0" y="1504.0">Team9.CovidDataFiles</node>
+    <node x="583.327850877193" y="955.0">Team9.ReportFrame</node>
+    <node x="1418.2317251461989" y="0.0">Team9.test</node>
+    <node x="748.4817251461989" y="661.0">Team9.ExportToPDF</node>
+    <node x="237.0" y="1504.0">Team9.Config</node>
+    <node x="638.1030701754393" y="1183.0">Team9.WritePDF</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Team9.MainFrame" target="Team9.Main" relationship="DEPENDENCY">
+      <point x="31.0" y="15.5" />
+      <point x="810.4817251461989" y="619.0" />
+      <point x="1244.625" y="619.0" />
+      <point x="1244.625" y="639.0" />
+      <point x="1262.7317251461989" y="639.0" />
+      <point x="88.75" y="-39.0" />
+    </edge>
+    <edge source="Team9.GenerateGraph" target="Team9.CovidData" relationship="TO_ONE">
+      <point x="68.25" y="-116.0" />
+      <point x="696.7317251461989" y="209.0" />
+      <point x="792.3150584795321" y="209.0" />
+      <point x="-54.66666666666674" y="94.0" />
+    </edge>
+    <edge source="Team9.ExportToPDF" target="Team9.WritePDF" relationship="CREATE">
+      <point x="0.0" y="105.0" />
+      <point x="862.4817251461989" y="893.0" />
+      <point x="890.7097953216381" y="893.0" />
+      <point x="890.7097953216381" y="1152.0" />
+      <point x="572.827850877193" y="1152.0" />
+      <point x="572.827850877193" y="1162.0" />
+      <point x="723.6030701754393" y="1162.0" />
+      <point x="-171.0" y="-138.0" />
+    </edge>
+    <edge source="Team9.WritePDF" target="Team9.ReportFrame" relationship="DEPENDENCY">
+      <point x="171.0000000000001" y="-138.0" />
+      <point x="1065.6030701754394" y="1162.0" />
+      <point x="1349.125" y="1162.0" />
+      <point x="1349.125" y="1142.0" />
+      <point x="712.827850877193" y="1142.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="Team9.GenerateGraph" target="Team9.LinearRegress" relationship="DEPENDENCY">
+      <point x="-68.25" y="-116.0" />
+      <point x="560.2317251461989" y="239.0" />
+      <point x="425.85672514619887" y="239.0" />
+      <point x="425.85672514619887" y="209.0" />
+      <point x="177.0" y="209.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Team9.ExportToPDF" target="Team9.ReportFrame" relationship="TO_ONE">
+      <point x="-76.0" y="105.0" />
+      <point x="786.4817251461989" y="903.0" />
+      <point x="872.2097953216381" y="903.0" />
+      <point x="872.2097953216381" y="913.0" />
+      <point x="537.3819444444451" y="913.0" />
+      <point x="537.3819444444451" y="933.0" />
+      <point x="626.4945175438597" y="933.0" />
+      <point x="-86.33333333333326" y="-83.0" />
+    </edge>
+    <edge source="Team9.GenerateGraph" target="Team9.Data" relationship="DEPENDENCY">
+      <point x="-68.25" y="-116.0" />
+      <point x="560.2317251461989" y="239.0" />
+      <point x="425.85672514619887" y="239.0" />
+      <point x="425.85672514619887" y="209.0" />
+      <point x="483.0" y="209.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Team9.ReportFrame" target="Team9.Main" relationship="DEPENDENCY">
+      <point x="86.33333333333337" y="-83.0" />
+      <point x="799.1611842105264" y="933.0" />
+      <point x="1216.6030701754394" y="933.0" />
+      <point x="1216.6030701754394" y="923.0" />
+      <point x="1173.9817251461989" y="923.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="Team9.ReportFrame" target="Team9.GenerateGraph" relationship="TO_ONE">
+      <point x="-86.33333333333326" y="-83.0" />
+      <point x="626.4945175438597" y="933.0" />
+      <point x="537.3819444444451" y="933.0" />
+      <point x="537.3819444444451" y="903.0" />
+      <point x="552.9817251461989" y="903.0" />
+      <point x="552.9817251461989" y="534.0" />
+      <point x="560.2317251461989" y="534.0" />
+      <point x="-68.25" y="116.0" />
+    </edge>
+    <edge source="Team9.WritePDF" target="Team9.CovidData" relationship="DEPENDENCY">
+      <point x="171.0000000000001" y="-138.0" />
+      <point x="1065.6030701754394" y="1162.0" />
+      <point x="1349.125" y="1162.0" />
+      <point x="1349.125" y="1142.0" />
+      <point x="1367.2317251461989" y="1142.0" />
+      <point x="1367.2317251461989" y="239.0" />
+      <point x="1189.2317251461989" y="239.0" />
+      <point x="1189.2317251461989" y="209.0" />
+      <point x="901.6483918128655" y="209.0" />
+      <point x="54.66666666666663" y="94.0" />
+    </edge>
+    <edge source="Team9.WritePDF" target="Team9.GenerateGraph" relationship="CREATE">
+      <point x="-171.0" y="-138.0" />
+      <point x="723.6030701754393" y="1162.0" />
+      <point x="572.827850877193" y="1162.0" />
+      <point x="572.827850877193" y="1152.0" />
+      <point x="563.9817251461989" y="1152.0" />
+      <point x="563.9817251461989" y="544.0" />
+      <point x="703.9817251461989" y="544.0" />
+      <point x="703.9817251461989" y="514.0" />
+      <point x="696.7317251461989" y="514.0" />
+      <point x="68.25" y="116.0" />
+    </edge>
+    <edge source="Team9.ReportFrame" target="Team9.CovidData" relationship="TO_ONE">
+      <point x="-86.33333333333326" y="-83.0" />
+      <point x="626.4945175438597" y="933.0" />
+      <point x="537.3819444444451" y="933.0" />
+      <point x="537.3819444444451" y="903.0" />
+      <point x="465.88194444444514" y="903.0" />
+      <point x="465.88194444444514" y="229.0" />
+      <point x="696.7317251461989" y="229.0" />
+      <point x="696.7317251461989" y="209.0" />
+      <point x="792.3150584795321" y="209.0" />
+      <point x="-54.66666666666674" y="94.0" />
+    </edge>
+    <edge source="Team9.ExportToPDF" target="Team9.WritePDF" relationship="TO_ONE">
+      <point x="-76.0" y="105.0" />
+      <point x="786.4817251461989" y="903.0" />
+      <point x="872.2097953216381" y="903.0" />
+      <point x="872.2097953216381" y="1162.0" />
+      <point x="894.6030701754393" y="1162.0" />
+      <point x="0.0" y="-138.0" />
+    </edge>
+    <edge source="Team9.MainFrame" target="Team9.CovidData" relationship="CREATE">
+      <point x="-31.0" y="-15.5" />
+      <point x="748.4817251461989" y="544.0" />
+      <point x="752.9597953216381" y="544.0" />
+      <point x="752.9597953216381" y="534.0" />
+      <point x="813.125" y="534.0" />
+      <point x="813.125" y="209.0" />
+      <point x="846.9817251461989" y="209.0" />
+      <point x="0.0" y="94.0" />
+    </edge>
+    <edge source="Team9.ReportFrame" target="Team9.CovidData" relationship="TO_MANY">
+      <point x="-86.33333333333326" y="-83.0" />
+      <point x="626.4945175438597" y="933.0" />
+      <point x="537.3819444444451" y="933.0" />
+      <point x="537.3819444444451" y="903.0" />
+      <point x="465.88194444444514" y="903.0" />
+      <point x="465.88194444444514" y="229.0" />
+      <point x="696.7317251461989" y="229.0" />
+      <point x="696.7317251461989" y="209.0" />
+      <point x="792.3150584795321" y="209.0" />
+      <point x="-54.66666666666674" y="94.0" />
+    </edge>
+    <edge source="Team9.ExportToPDF" target="Team9.CovidData" relationship="DEPENDENCY">
+      <point x="0.0" y="-105.0" />
+      <point x="862.4817251461989" y="629.0" />
+      <point x="909.5069444444451" y="629.0" />
+      <point x="909.5069444444451" y="239.0" />
+      <point x="1189.2317251461989" y="239.0" />
+      <point x="1189.2317251461989" y="209.0" />
+      <point x="901.6483918128655" y="209.0" />
+      <point x="54.66666666666663" y="94.0" />
+    </edge>
+    <edge source="Team9.ExportToPDF" target="Team9.ReportFrame" relationship="DEPENDENCY">
+      <point x="76.0" y="105.0" />
+      <point x="938.4817251461989" y="923.0" />
+      <point x="1216.6030701754394" y="923.0" />
+      <point x="1216.6030701754394" y="933.0" />
+      <point x="799.1611842105264" y="933.0" />
+      <point x="86.33333333333337" y="-83.0" />
+    </edge>
+    <edge source="Team9.MainFrame" target="Team9.ReportFrame" relationship="CREATE">
+      <point x="-31.0" y="15.5" />
+      <point x="748.4817251461989" y="629.0" />
+      <point x="771.3530701754393" y="629.0" />
+      <point x="771.3530701754393" y="639.0" />
+      <point x="733.577850877193" y="639.0" />
+      <point x="733.577850877193" y="903.0" />
+      <point x="712.827850877193" y="903.0" />
+      <point x="0.0" y="-83.0" />
+    </edge>
+    <edge source="Team9.Main" target="Team9.CovidData" relationship="DEPENDENCY">
+      <point x="88.75" y="-39.0" />
+      <point x="1262.7317251461989" y="639.0" />
+      <point x="1244.625" y="639.0" />
+      <point x="1244.625" y="239.0" />
+      <point x="1189.2317251461989" y="239.0" />
+      <point x="1189.2317251461989" y="209.0" />
+      <point x="901.6483918128655" y="209.0" />
+      <point x="54.66666666666663" y="94.0" />
+    </edge>
+    <edge source="Team9.ReportFrame" target="Team9.GenerateGraph" relationship="CREATE">
+      <point x="0.0" y="-83.0" />
+      <point x="712.827850877193" y="903.0" />
+      <point x="696.375" y="903.0" />
+      <point x="696.375" y="544.0" />
+      <point x="703.9817251461989" y="544.0" />
+      <point x="703.9817251461989" y="514.0" />
+      <point x="696.7317251461989" y="514.0" />
+      <point x="68.25" y="116.0" />
+    </edge>
+    <edge source="Team9.ReportFrame" target="Team9.CovidData" relationship="DEPENDENCY">
+      <point x="86.33333333333337" y="-83.0" />
+      <point x="799.1611842105264" y="933.0" />
+      <point x="1216.6030701754394" y="933.0" />
+      <point x="1216.6030701754394" y="923.0" />
+      <point x="1361.9817251461989" y="923.0" />
+      <point x="1361.9817251461989" y="239.0" />
+      <point x="1189.2317251461989" y="239.0" />
+      <point x="1189.2317251461989" y="209.0" />
+      <point x="901.6483918128655" y="209.0" />
+      <point x="54.66666666666663" y="94.0" />
+    </edge>
+    <edge source="Team9.ReportFrame" target="Team9.ExportToPDF" relationship="CREATE">
+      <point x="0.0" y="-83.0" />
+      <point x="712.827850877193" y="923.0" />
+      <point x="890.7097953216381" y="923.0" />
+      <point x="890.7097953216381" y="893.0" />
+      <point x="862.4817251461989" y="893.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="Team9.GenerateGraph" target="Team9.CovidData" relationship="DEPENDENCY">
+      <point x="-68.25" y="-116.0" />
+      <point x="560.2317251461989" y="239.0" />
+      <point x="425.85672514619887" y="239.0" />
+      <point x="425.85672514619887" y="219.0" />
+      <point x="1189.2317251461989" y="219.0" />
+      <point x="1189.2317251461989" y="209.0" />
+      <point x="901.6483918128655" y="209.0" />
+      <point x="54.66666666666663" y="94.0" />
+    </edge>
+    <edge source="Team9.Main" target="Team9.MainFrame" relationship="CREATE">
+      <point x="-88.75" y="-39.0" />
+      <point x="1085.2317251461989" y="639.0" />
+      <point x="771.3530701754393" y="639.0" />
+      <point x="771.3530701754393" y="629.0" />
+      <point x="748.4817251461989" y="629.0" />
+      <point x="-31.0" y="15.5" />
+    </edge>
+    <edge source="Team9.MainFrame" target="Team9.CovidData" relationship="TO_MANY">
+      <point x="31.0" y="-15.5" />
+      <point x="810.4817251461989" y="524.0" />
+      <point x="780.3567251461989" y="524.0" />
+      <point x="780.3567251461989" y="229.0" />
+      <point x="696.7317251461989" y="229.0" />
+      <point x="696.7317251461989" y="209.0" />
+      <point x="792.3150584795321" y="209.0" />
+      <point x="-54.66666666666674" y="94.0" />
+    </edge>
+    <edge source="Team9.MainFrame" target="Team9.GenerateGraph" relationship="CREATE">
+      <point x="-31.0" y="-15.5" />
+      <point x="748.4817251461989" y="544.0" />
+      <point x="752.9597953216381" y="544.0" />
+      <point x="752.9597953216381" y="524.0" />
+      <point x="703.9817251461989" y="524.0" />
+      <point x="703.9817251461989" y="514.0" />
+      <point x="696.7317251461989" y="514.0" />
+      <point x="68.25" y="116.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5691318327974276" showDependencies="true" x="782.0" y="767.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
